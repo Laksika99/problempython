@@ -1,0 +1,63 @@
+:root {
+  --primary: #632024;      /* แดงเข้ม */
+  --secondary: #6F4D38;    /* น้ำตาล */
+  --accent: #D5B893;       /* ครีม */
+  --muted: #617891;        /* เทาอมฟ้า */
+  --dark: #25344F;         /* น้ำเงินเข้ม */
+  --white: #ffffff;
+}
+:root {
+  --primary: #632024;
+  --secondary: #6F4D38;
+  --accent: #D5B893;
+  --muted: #617891;
+  --dark: #25344F;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--accent);
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.btn {
+  background: var(--secondary);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}

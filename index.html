@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>เมนูอาหาร</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>ร้านอาหารของฉัน</header>
+
+<div class="container">
+  <h2>เมนูอาหาร</h2>
+
+  <div class="grid">
+    
+    <div class="card">
+      <h3>ชื่อเมนู</h3>
+      <!-- ใส่รูปอาหาร -->
+      <!-- ใส่รายละเอียดเมนู -->
+      <p>ราคา: 100 บาท</p>
+      <button class="btn" onclick="addToCart()">เพิ่มลงตะกร้า</button>
+    </div>
+
+  </div>
+
+  <a href="cart.html"><button class="btn">ไปที่ตะกร้า</button></a>
+</div>
+
+<script>
+function addToCart() {
+  alert("เพิ่มสินค้าแล้ว (คุณต้องเขียนระบบเก็บข้อมูลเอง เช่น localStorage)");
+}
+</script>
+
+</body>
+</html>
